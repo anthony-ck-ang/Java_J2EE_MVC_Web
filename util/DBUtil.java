@@ -9,8 +9,8 @@ import java.sql.Statement;
 public class DBUtil {
 	public Connection createConnection() throws SQLException, ClassNotFoundException {
 		Connection cn=null;
-		Class.forName("oracle.jdbc.driver.OracleDriver");
-		cn=DriverManager.getConnection("jdbc:oracle:thin:@", "username", "password");
+		Class.forName("oracle.jdbc.driver.OracleDriver");	//HostName or TCP/IP address
+		cn=DriverManager.getConnection("jdbc:oracle:thin:@host:port:databaseName", "username", "password");
 		return cn;
 	}
 	
