@@ -10,7 +10,7 @@ public class DBUtil {
 	public Connection createConnection() throws SQLException, ClassNotFoundException {
 		Connection cn=null;
 		Class.forName("oracle.jdbc.driver.OracleDriver");
-		cn=DriverManager.getConnection("jdbc:oracle:thin:@10.103.13.85:1521:XE", "ilp_sgp", "Tata!123");
+		cn=DriverManager.getConnection("jdbc:oracle:thin:@", "username", "password");
 		return cn;
 	}
 	
