@@ -1,0 +1,64 @@
+--TABLES USED FOR TeamA_ABC_Bank:
+--1 . User login details store table: USERSTORE_TEAM_A
+--2 . Customer table: Customer_Team_A
+--3 . Accounts table: Account_Team_A
+--4 . Transaction table: Transactions_Team_A
+
+Create Table Userstore_Team_A(
+eUsername varchar(30) UNIQUE,
+ePassword varchar(30),
+eDesignation varchar(30),
+eTimestamp (date));
+
+insert into Userstore_Team_A values ('qwertyui','asdfghjklz', 'AccExecutive', TO_DATE('19-DEC-2016','DD-MON-YYYY'));
+insert into Userstore_Team_A values ('username','password123', 'Cashier', TO_DATE('07-JAN-2016','DD-MON-YYYY'));
+
+
+Create Table Customer_Team_A (
+ws_ssn Number(9) UNIQUE ,
+ws_cust_id Number(9) Primary Key,
+ws_name varchar2(50),
+ws_adrs varchar2(50),
+ws_age Number(3),
+ws_role varchar2(15),
+lastUpdated (Date));
+
+insert into Customer_Team_A values (100000001,200000001, 'John', 'Singapore', 23, 'Customer', TO_DATE('19-DEC-2016','DD-MON-YYYY'));
+insert into Customer_Team_A values (100000002,200000002, 'Ben', 'Singapore', 25, 'Customer', TO_DATE('31-JAN-2016','DD-MON-YYYY'));
+
+
+create table Account_Team_A(
+ws_cust_id  number (9) Constraint FK_1111 References Customer_Team_A(ws_cust_id),
+ws_acct_id  number (9) primary key,
+ws_acct_type varchar2(10),
+ws_acct_balance number(7,2),
+ws_acct_crdate date,
+ws_acct_lasttrdate date,
+ws_acct_duration number(5));
+
+insert into Account_Team_A values (888888888,100000000,'Savings',300,TO_DATE('07/02/2017', 'DD/MM/YYYY'),TO_DATE('06/02/2017', 'DD/MM/YYYY'),0);
+
+
+create table Transactions_Team_A (
+ws_transation_id number (9) primary key,
+ws_cust_id  number (9) Constraint FK_2222 References Customer_Team_A(ws_cust_id),
+ws_acct_type varchar2(10),
+ws_amt number (7,2),
+ws_trxn_date date ,
+ws_src_typ varchar2(10),
+ws_tgt_typ varchar2(10));
+
+
+
+select * from Customer_Team_A;
+select * from Account_Team_A;
+select * from Transactions_Team_A;
+select * from Userstore_Team_A;
+
+
+commit;
+
+drop table Account_Team_A;
+drop table Customer_Team_A;
+drop table Transactions_Team_A;
+drop table USERSTORE_TEAM_A;
