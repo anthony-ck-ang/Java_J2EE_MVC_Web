@@ -7,14 +7,14 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 public class DBUtil {
-	public Connection createConnection() throws SQLException, ClassNotFoundException {
+	public static Connection createConnection() throws SQLException, ClassNotFoundException {
 		Connection cn=null;
-		Class.forName("oracle.jdbc.driver.OracleDriver");	//HostName or TCP/IP address
-		cn=DriverManager.getConnection("jdbc:oracle:thin:@host:port:databaseName", "username", "password");
+		Class.forName("oracle.jdbc.driver.OracleDriver");
+		cn=DriverManager.getConnection("jdbc:oracle:thin:@10.103.13.85:1521:XE", "ilp_sgp", "Tata!123");
 		return cn;
 	}
 	
-	public void closeAll(Connection cn, Statement pst, ResultSet rs)  throws SQLException {
+	public static void closeAll(Connection cn, Statement pst, ResultSet rs)  throws SQLException {
 		if(rs!=null) {
 			rs.close();
 		}
@@ -26,4 +26,3 @@ public class DBUtil {
 		}
 	}
 }
-
