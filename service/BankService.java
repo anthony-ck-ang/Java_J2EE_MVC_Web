@@ -20,10 +20,26 @@ public class BankService {
 
 	CustomerDao dao = new CustomerDao();
 
-	public int insertUser(int ssn, int id, String name, int age, String address1, String address2, String city,
+	public int insertCustomer(int ssn, int id, String name, int age, String address1, String address2, String city,
 			String state) {
-		return dao.insertUser(ssn, id, name, age, address1, address2, city, state);
+		return dao.insertCustomer(ssn, id, name, age, address1, address2, city, state);
 	}
+
+	// new implementation
+	public int insertCustomerObj(int ssn, int id, String name, int age, String address1, String address2, String city,
+			String state) {
+		int returnCode = 0;
+
+		Customer customer = new Customer();
+		customer.setWs_ssn(ssn);
+		customer.setWs_cust_id(id);
+		customer.setWs_name(name);
+		customer.setWs_age(age);
+		customer.setWs_adrs(address1 + address2 + city + state);
+
+		return dao.insertCustomerObj(customer);
+	}
+
 
 	public int insertAccount(int ssn, String accType, double depositAmount) {
 		return dao.insertAccount(ssn, accType, depositAmount);
