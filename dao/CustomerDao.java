@@ -13,6 +13,55 @@ import com.anthonyang.abc.bean.User;
 import com.anthonyang.abc.util.DBUtil;
 
 public class CustomerDao {
+	
+	// new implementation
+	public int insertCustomerObj(Customer customer){
+		int done = 0;
+
+		Connection cn = null;
+		PreparedStatement pst = null;
+
+		/*
+		 * finally block can be replaced with try with resources implementation
+		 * -> ensures that each resource is closed at the end of the statement
+		 */
+		
+		try {
+			cn = DBUtil.createConnection();
+
+			pst = cn.prepareStatement("insert into Customer_Team_A values(?,?,?,?,?,?,?)");
+			pst.setInt(1, customer.getWs_ssn());
+			pst.setInt(2, customer.getWs_cust_id());
+			pst.setString(3, customer.getWs_name());
+			pst.setString(4, customer.getWs_adrs());
+			pst.setInt(5, customer.getWs_age());
+			pst.setString(6, "Customer");
+			pst.setDate(7, new java.sql.Date(System.currentTimeMillis()));
+
+			int rs = pst.executeUpdate();
+
+			if (rs > 0) {
+				done = 1;
+			}
+
+		} catch (SQLException e) {
+			// will implement logger eg: log4j
+			// logger.error(“SQLException while interacting with DB”);
+			throw new RuntimeException(e);
+		} catch (ClassNotFoundException e) {
+			// logger.error(“ClassNotFoundException while interacting with DB”);
+			throw new RuntimeException(e);
+		} finally {
+			try {
+				DBUtil.closeAll(cn, pst, null);
+			} catch (SQLException e) {
+				// will implement logger
+				// logger.error(“SQLException while interacting with DB”);
+				throw new RuntimeException(e);
+			}
+		}
+		return done;
+	}
 
 	public int deleteUserBySSN(int SSN) {
 		int returnCode = 0;
