@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="BankingServiceTest" project="TeamA_ABC_Bank" tests="18" started="18" failures="0" errors="0" ignored="0">
+  <testsuite name="com.tcs.abc.test.BankingServiceTest" time="1.376">
+    <testcase name="testFindCustomerBySSN" classname="com.tcs.abc.test.BankingServiceTest" time="0.312"/>
+    <testcase name="testGetAllCustomer" classname="com.tcs.abc.test.BankingServiceTest" time="0.047"/>
+    <testcase name="testFindAccByAcctId" classname="com.tcs.abc.test.BankingServiceTest" time="0.062"/>
+    <testcase name="testUpdateCustID" classname="com.tcs.abc.test.BankingServiceTest" time="0.047"/>
+    <testcase name="testFindCustomerByID" classname="com.tcs.abc.test.BankingServiceTest" time="0.062"/>
+    <testcase name="testFindCustomerbyId" classname="com.tcs.abc.test.BankingServiceTest" time="0.032"/>
+    <testcase name="testGetAllCustomers" classname="com.tcs.abc.test.BankingServiceTest" time="0.079"/>
+    <testcase name="testInsertAccount" classname="com.tcs.abc.test.BankingServiceTest" time="0.125"/>
+    <testcase name="testInsertUser" classname="com.tcs.abc.test.BankingServiceTest" time="0.063"/>
+    <testcase name="testDeleteUserID" classname="com.tcs.abc.test.BankingServiceTest" time="0.078"/>
+    <testcase name="testGetAllAccounts" classname="com.tcs.abc.test.BankingServiceTest" time="0.062"/>
+    <testcase name="testFindAccountByCustId" classname="com.tcs.abc.test.BankingServiceTest" time="0.048"/>
+    <testcase name="testGetAccDetails" classname="com.tcs.abc.test.BankingServiceTest" time="0.062"/>
+    <testcase name="testValidateLogin" classname="com.tcs.abc.test.BankingServiceTest" time="0.063"/>
+    <testcase name="testLogOut" classname="com.tcs.abc.test.BankingServiceTest" time="0.0"/>
+    <testcase name="testUpdateCustSSN" classname="com.tcs.abc.test.BankingServiceTest" time="0.093"/>
+    <testcase name="testDeleteUserSSN" classname="com.tcs.abc.test.BankingServiceTest" time="0.063"/>
+    <testcase name="testFindCustomer" classname="com.tcs.abc.test.BankingServiceTest" time="0.078"/>
+  </testsuite>
+</testrun>
