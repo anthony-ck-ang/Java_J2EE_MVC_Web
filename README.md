@@ -23,7 +23,23 @@ Only usertype of editor or chief editor can access this option
 
 UserTypes
 1. Regular end users
+  I.
+  - can save weblinks, movies, books
+  - rate bookmarks
+  - post review (subject to approval)
 2. Staff
-  - email admin  
-  - editor
-  - chief editor
+  - Email admin  
+    - have access to all features in I. 
+    - post review without the need for approval
+    - handle email campaign
+  - Editor
+    - have access to all features in I. and
+    - II.
+      - post review
+      - approve review
+      - reject review
+  - Chief editor
+    - have access to all features in I. 
+    - have access to all features in II. and
+    - update homepage
+    
