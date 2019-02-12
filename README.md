@@ -24,6 +24,6 @@ Only usertype of editor or chief editor can access this option
 UserTypes
 1. Regular end users
 2. Staff
-  -email admin  
-  -editor
-  -chief editor
+  - email admin  
+  - editor
+  - chief editor
