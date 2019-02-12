@@ -1,0 +1,14 @@
+WebLink
+// Test 1: If keyword "porn" is found in url, result should return false
+// Test 2: If keyword "porn" is found in title, result should return false
+// Test 3: If keyword "adult" is found in host, result should return false
+// Test 4: If keyword "adult" is found in url, but not in host, result should return true
+// Test 5: If keyword "adult" is found in title only, result should return true
+
+Movie
+// Test 1: If movie genre is "Thriller", result should return false
+// Test 2: If movie genre is "Horror", result should return false
+
+Book
+// Test 1: If book genre is "Philosophy", result should return false
+// Test 2: If book genre  is "Self-help", result should return false

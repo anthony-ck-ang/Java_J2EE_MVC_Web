@@ -1,0 +1,82 @@
+1. Loading data...
+Requesting data...
+Printing data...
+User [id=1000, email=user0@semanticsquare.com, password=test, firstName=James, lastName=M, gender=0, userType=user]
+User [id=1001, email=user1@semanticsquare.com, password=test, firstName=Sheryl, lastName=M, gender=1, userType=user]
+User [id=1002, email=user2@semanticsquare.com, password=test, firstName=Andy, lastName=M, gender=0, userType=editor]
+User [id=1003, email=user3@semanticsquare.com, password=test, firstName=Ankita, lastName=M, gender=1, userType=editor]
+User [id=1004, email=user4@semanticsquare.com, password=test, firstName=Xavier, lastName=M, gender=0, userType=chiefeditor]
+WebLink [url=http://www.javaworld.com/article/2072759/core-java/taming-tiger--part-2.html, host=http://www.javaworld.com]
+WebLink [url=http://mindprod.com/jgloss/interfacevsabstract.html, host=http://mindprod.com]
+WebLink [url=http://www.javaworld.com/article/2072759/core-java/taming-tiger--part-2.html, host=http://www.javaworld.com]
+WebLink [url=http://cs.brown.edu/courses/cs161/papers/j-nio-ltr.pdf, host=http://cs.brown.edu]
+WebLink [url=http://tomcat.apache.org/tomcat-6.0-doc/virtual-hosting-howto.html, host=http://tomcat.apache.org]
+Movie [releaseYear=1941, cast=[Orson Welles, Joseph Cotten], directors=[Orson Welles], genre=Classics, imdbRating=8.5]
+Movie [releaseYear=1940, cast=[Henry Fonda,Jane Darwell], directors=[John Ford], genre=Classics, imdbRating=8.2]
+Movie [releaseYear=2004, cast=[Albert Cullum], directors=[Leslie Sullivans], genre=Documentaries, imdbRating=7.3]
+Movie [releaseYear=2007, cast=[Kaley Cuoco, Jim Parsons], directors=[Chuck Lorre, Bill Prady], genre=TV Shows, imdbRating=8.7]
+Movie [releaseYear=1952, cast=[Takashi Shimura, Minoru Chiaki], directors=[Akira Kurosawa], genre=Foreign Movies, imdbRating=8.4]
+Book [publicationYear=1854, publisher=Wilder Publications, authors=[Henry David], genre=Philosphy, amazonRating=4.3]
+Book [publicationYear=1988, publisher=Dover Publications, authors=[Ralph Waldo Emerson], genre=Philosphy, amazonRating=4.5]
+Book [publicationYear=1854, publisher=Touchstone, authors=[Lillian Eichler Watson], genre=Philosphy, amazonRating=5.0]
+Book [publicationYear=2004, publisher=O'Reilly Media, authors=[Eric Freeman, Bert Bates, Kathy Sierra, Elisabeth Robson], genre=Technical, amazonRating=4.5]
+Book [publicationYear=2007, publisher=Prentice Hall, authors=[Joshua Bloch], genre=Technical, amazonRating=4.9]
+
+2. Bookmarking...
+
+user0@semanticsquare.com is browsing items...
+The WebLink [url=http://www.javaworld.com/article/2072759/core-java/taming-tiger--part-2.html, host=http://www.javaworld.com] has been bookmarked
+The WebLink [url=http://mindprod.com/jgloss/interfacevsabstract.html, host=http://mindprod.com] has been bookmarked
+The WebLink [url=http://www.javaworld.com/article/2072759/core-java/taming-tiger--part-2.html, host=http://www.javaworld.com] has been bookmarked
+The WebLink [url=http://tomcat.apache.org/tomcat-6.0-doc/virtual-hosting-howto.html, host=http://tomcat.apache.org] has been bookmarked
+The Movie [releaseYear=2004, cast=[Albert Cullum], directors=[Leslie Sullivans], genre=Documentaries, imdbRating=7.3] has been bookmarked
+
+user1@semanticsquare.com is browsing items...
+The WebLink [url=http://mindprod.com/jgloss/interfacevsabstract.html, host=http://mindprod.com] has been bookmarked
+The WebLink [url=http://www.javaworld.com/article/2072759/core-java/taming-tiger--part-2.html, host=http://www.javaworld.com] has been bookmarked
+The WebLink [url=http://cs.brown.edu/courses/cs161/papers/j-nio-ltr.pdf, host=http://cs.brown.edu] has been bookmarked
+The WebLink [url=http://tomcat.apache.org/tomcat-6.0-doc/virtual-hosting-howto.html, host=http://tomcat.apache.org] has been bookmarked
+The Movie [releaseYear=2004, cast=[Albert Cullum], directors=[Leslie Sullivans], genre=Documentaries, imdbRating=7.3] has been bookmarked
+
+user2@semanticsquare.com is browsing items...
+The WebLink [url=http://www.javaworld.com/article/2072759/core-java/taming-tiger--part-2.html, host=http://www.javaworld.com] has been bookmarked
+Kid friendly status approved, marked by user2@semanticsquare.com is set for WebLink [url=http://www.javaworld.com/article/2072759/core-java/taming-tiger--part-2.html, host=http://www.javaworld.com]
+The WebLink [url=http://mindprod.com/jgloss/interfacevsabstract.html, host=http://mindprod.com] has been bookmarked
+Kid friendly status approved, marked by user2@semanticsquare.com is set for WebLink [url=http://mindprod.com/jgloss/interfacevsabstract.html, host=http://mindprod.com]
+Data to be shared: 
+<item><type>WebLink</type><title>Interface vs Abstract Class</title><url>http://mindprod.com/jgloss/interfacevsabstract.html</url><host>http://mindprod.com</host></item>
+The WebLink [url=http://www.javaworld.com/article/2072759/core-java/taming-tiger--part-2.html, host=http://www.javaworld.com] has been bookmarked
+Kid friendly status approved, marked by user2@semanticsquare.com is set for WebLink [url=http://cs.brown.edu/courses/cs161/papers/j-nio-ltr.pdf, host=http://cs.brown.edu]
+The WebLink [url=http://tomcat.apache.org/tomcat-6.0-doc/virtual-hosting-howto.html, host=http://tomcat.apache.org] has been bookmarked
+Kid friendly status approved, marked by user2@semanticsquare.com is set for WebLink [url=http://tomcat.apache.org/tomcat-6.0-doc/virtual-hosting-howto.html, host=http://tomcat.apache.org]
+The Movie [releaseYear=1940, cast=[Henry Fonda,Jane Darwell], directors=[John Ford], genre=Classics, imdbRating=8.2] has been bookmarked
+Kid friendly status rejected, marked by user2@semanticsquare.com is set for Movie [releaseYear=2007, cast=[Kaley Cuoco, Jim Parsons], directors=[Chuck Lorre, Bill Prady], genre=TV Shows, imdbRating=8.7]
+Kid friendly status approved, marked by user2@semanticsquare.com is set for Movie [releaseYear=1952, cast=[Takashi Shimura, Minoru Chiaki], directors=[Akira Kurosawa], genre=Foreign Movies, imdbRating=8.4]
+Kid friendly status rejected, marked by user2@semanticsquare.com is set for Book [publicationYear=2004, publisher=O'Reilly Media, authors=[Eric Freeman, Bert Bates, Kathy Sierra, Elisabeth Robson], genre=Technical, amazonRating=4.5]
+
+user3@semanticsquare.com is browsing items...
+The WebLink [url=http://mindprod.com/jgloss/interfacevsabstract.html, host=http://mindprod.com] has been bookmarked
+The WebLink [url=http://www.javaworld.com/article/2072759/core-java/taming-tiger--part-2.html, host=http://www.javaworld.com] has been bookmarked
+Kid friendly status approved, marked by user3@semanticsquare.com is set for WebLink [url=http://www.javaworld.com/article/2072759/core-java/taming-tiger--part-2.html, host=http://www.javaworld.com]
+Data to be shared: 
+<item><type>WebLink</type><title>NIO tutorial by Greg Travis</title><url>http://cs.brown.edu/courses/cs161/papers/j-nio-ltr.pdf</url><host>http://cs.brown.edu</host></item>
+Data to be shared: 
+<item><type>WebLink</type><title>Virtual Hosting and Tomcat</title><url>http://tomcat.apache.org/tomcat-6.0-doc/virtual-hosting-howto.html</url><host>http://tomcat.apache.org</host></item>
+The Movie [releaseYear=1941, cast=[Orson Welles, Joseph Cotten], directors=[Orson Welles], genre=Classics, imdbRating=8.5] has been bookmarked
+Kid friendly status rejected, marked by user3@semanticsquare.com is set for Movie [releaseYear=1941, cast=[Orson Welles, Joseph Cotten], directors=[Orson Welles], genre=Classics, imdbRating=8.5]
+The Movie [releaseYear=2007, cast=[Kaley Cuoco, Jim Parsons], directors=[Chuck Lorre, Bill Prady], genre=TV Shows, imdbRating=8.7] has been bookmarked
+The Movie [releaseYear=1952, cast=[Takashi Shimura, Minoru Chiaki], directors=[Akira Kurosawa], genre=Foreign Movies, imdbRating=8.4] has been bookmarked
+
+user4@semanticsquare.com is browsing items...
+Data to be shared: 
+<item><type>WebLink</type><title>Taming Tiger Part 2</title><url>http://www.javaworld.com/article/2072759/core-java/taming-tiger--part-2.html</url><host>http://www.javaworld.com</host></item>
+The WebLink [url=http://mindprod.com/jgloss/interfacevsabstract.html, host=http://mindprod.com] has been bookmarked
+Data to be shared: 
+<item><type>WebLink</type><title>Taming Tiger Part 2</title><url>http://www.javaworld.com/article/2072759/core-java/taming-tiger--part-2.html</url><host>http://www.javaworld.com</host></item>
+The WebLink [url=http://cs.brown.edu/courses/cs161/papers/j-nio-ltr.pdf, host=http://cs.brown.edu] has been bookmarked
+Data to be shared: 
+<item><type>WebLink</type><title>NIO tutorial by Greg Travis</title><url>http://cs.brown.edu/courses/cs161/papers/j-nio-ltr.pdf</url><host>http://cs.brown.edu</host></item>
+Kid friendly status approved, marked by user4@semanticsquare.com is set for Movie [releaseYear=2004, cast=[Albert Cullum], directors=[Leslie Sullivans], genre=Documentaries, imdbRating=7.3]
+The Movie [releaseYear=2007, cast=[Kaley Cuoco, Jim Parsons], directors=[Chuck Lorre, Bill Prady], genre=TV Shows, imdbRating=8.7] has been bookmarked
+The Book [publicationYear=1988, publisher=Dover Publications, authors=[Ralph Waldo Emerson], genre=Philosphy, amazonRating=4.5] has been bookmarked
+Kid friendly status rejected, marked by user4@semanticsquare.com is set for Book [publicationYear=2007, publisher=Prentice Hall, authors=[Joshua Bloch], genre=Technical, amazonRating=4.9]
