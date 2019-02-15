@@ -42,3 +42,16 @@ UserTypes
     - have access to all features in II. and
     - update homepage
     
+# livre Bookmarking Application v1.1
+Features implemented:
+- Read user and bookmark data from text file (read from file)
+- Download weblinks/webpage (read from remote host) and write to disk
+
+Benefit: 
+- maintain a local cache of the webpage. 
+- webpage content can still be browsed by user even if the host is unavailable.
+
+Webpages can be index which enable users to search for specific content amongst the webpages.
+search feature, index is a datastructure which enbles efficient text search.
+third party libraries such as Lucine which helpes with indexing of documents.
+Index feature is unavailable in this version.
